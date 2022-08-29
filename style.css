@@ -473,6 +473,9 @@ img {
     width: 17vw;
 }
 
+.contact p {
+    line-height: 4vh;
+}
 @media screen and (max-width:1539px) {
     .field {
         position: relative;
@@ -770,4 +773,6 @@ img {
         flex-direction: row;
     }
 }
+
+
 

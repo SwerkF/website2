@@ -1,44 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-	<loc>https://www.swerk.dev/</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://www.skweres.xyz/</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/skweres_cv.pdf</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/skweres_cv.pdf</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/stage_altameos_skweres.pdf</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/stage_altameos_skweres.pdf</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/nvidia_dldsr.docx</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/stage_altameos_skweres_2.pdf</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/nvidia_images_3d_et_visages.docx</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/nvidia_dldsr.docx</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/nvidia_gaugan.docx</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/nvidia_images_3d_et_visages.docx</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/nvidia_nerf.docx</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/nvidia_gaugan.docx</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.swerk.dev/download/nvidia_magic3D.docx</loc>
-	<lastmod>2022-12-29T17:52:40+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.skweres.xyz/download/nvidia_nerf.docx</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://www.skweres.xyz/download/nvidia_magic3D.docx</loc>
+  <lastmod>2023-03-05T15:33:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>

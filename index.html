@@ -1,447 +1,523 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <title>Oliwer Skweres</title>
-        <link rel="icon" type="image/png" href="imgs/favicon.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
-        <script src="main.js" type="module"></script>
-        <script src="https://kit.fontawesome.com/b20eb41686.js" crossorigin="anonymous"></script>
-        <meta charset="utf-8">
-        <meta name="description" content="Portfolio de Oliwer SKWERES - Swerk"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#F5E9E2">
-        <meta name="author" content="Oliwer Skweres">
-        <meta name="robots" content="index, follow">>
-        <meta property="og:title" content="Oliwer Skweres"/>
-        <meta property="og:description" content="Portfolio de Oliwer SKWERES - Swerk"/>
-        <meta property="og:image" content="https://skweres.xyz/imgs/image.png"/>
-        <meta property="og:url" content="https://skweres.xyz"/>
-        <meta property="og:site_name" content="Portfolio"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:locale" content="fr_FR"/>
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:title" content="Oliwer Skweres"/>
-        <meta property="twitter:description" content="Portfolio de Oliwer SKWERES - Swerk"/>
-        <meta property="twitter:image" content="https://skweres.xyz/imgs/image.png"/>
-        <meta property="twitter:url" content="https://skweres.xyz"/>
-        <meta property="twitter:domain" content="skweres.xyz"/>
-        <meta name="keywords" content="Oliwer, Skweres, Swerk, Portfolio, Oliwer Portfolio, Oliwer Skweres Portfolio, Swerk Portfolio, Oliwer Dev, Skweres Dev, Swerk Dev"> 
 
-
-    </head>
-    <body>
-        <header class="header" >
-            <div class="link color-white" id="link">
-                <a href="#about">
-                    About</a>
-                <a href="#projects">
-                    Projets</a>
-                <a href="#stages">
-                    Stages</a>
-                <a href="#certificates">
-                    Certifications</a>
-                <a href="#veilles">
-                    Veilles</a>
-                <a href="#contact">
-                    Contact</a>
-            </div>
-        </header>
-        <div class="container">
-            <div data-aos="fade-up" class="first">
-                <div class="text">
-                    <div class="title" id="titleId">
-                        <h1 id="title"></h1>
-                    </div>
-                    <div class="subtitle" id="subtitleId">
-                        <h2 id="subtitle"> </h2>
-                    </div>
-                    <div class="subtitle2" id="subtitleId2">
-                        <h2 id="subtitle2"> </h2>
-                    </div>
-                </div>
-            </div>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E9E2" fill-opacity="1" d="M0,96L60,133.3C120,171,240,245,360,245.3C480,245,600,171,720,122.7C840,75,960,53,1080,85.3C1200,117,1320,203,1380,245.3L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-            
-            <div class="second">
-                <div id="about"></div>
-                <div class="columns size">
-                    <div class="column">
-                        <div class="mainTitle text-size-2">
-                            <h2 data-aos="fade-up" data-aos-delay="200"> About </h2>
-                        </div>
-                        <div class="mainText">
-                            <p data-aos="fade-up" data-aos-delay="300">
-                                Je m'appelle <strong>Oliwer SKWERES</strong>, j'ai <strong>20 ans</strong> et je suis en <strong>2nd année 
-                                de BTS SIO</strong> dans le lycée privé <strong>Saint Adjutor</strong> situé à Vernon.
-                                Je suis <strong>d'origine polonaise</strong>, j'y ai vécu jusqu'à mes 4 ans avant 
-                                de venir vivre en France.
-                                Pour mes années de lycée en 2nd j'étais au <strong>lycée Descartes</strong> à <strong>Antony</strong>, 
-                                puis suite à un déménagement, j'ai poursuivi ma scolarité au <strong>lycée Louis Modeste Leroy</strong> à <strong>Evreux</strong> avec les options
-                                <strong>Mathématique et Science Ingénieur</strong>.
-                                <strong>J'ai été accepté à l'IPSSI pour pouvoir continuer mes études dans le développement web en alternance.
-
-                                </strong>
-                            <div data-aos="fade-up" data-aos-delay="200" class="download">
-                                <a href="download/skweres_cv.pdf" download><i class="fa-solid fa-file-pdf"></i>Cirriculum Vitae</a>
-                            </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <img class="avatar" src="imgs/image.png" alt="avatar.png">
-                    </div>
-                </div>
-            </div>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E9E2" fill-opacity="1" d="M0,128L60,122.7C120,117,240,107,360,122.7C480,139,600,181,720,213.3C840,245,960,267,1080,250.7C1200,235,1320,181,1380,154.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-            <div class="third">
-                <div id="projects"></div>
-                <div class="mainTitle align-text-center text-size-2">
-                    <h2 data-aos="fade-up" data-aos-delay="200"> Projets </h2>
-                </div>
-                <div class="columns flex-nospace">
-                    <div data-aos="zoom-in" data-aos-delay="300" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/csharp.png" width="200px" alt="csharp.png">
-                            <h2 class="margin-bottom-1"> Application Digicode </h2>
-                            <p>
-                                L’objectif de ce projet était de réaliser un algorithme qui permet de 
-                                rajouter des stocks de médicaments, les consulter et donner leur prix.
-                                Cet algorithme a été fait pour l’entreprise nommée GSB.
-                            </p>
-                            <button onclick="location.href='https://github.com/SwerkF/bts_medicament_oliwer'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-delay="400" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/csharp.png" width="200px" alt="csharp.png">
-                            <h2 class="margin-bottom-1"> Application Digicode </h2>
-                            <p>
-                                L’objectif de cette AP était de réaliser un digicode en 
-                                groupe de 3 en Windows Form en C#. Chaque élève avait son activité
-                                à faire, tout ça géré par un chef de projet nommé en début d’AP.
-                                Tout ça en moins de 12 heures.
-                            </p>
-                            <button onclick="location.href='https://github.com/SwerkF/bts_digicode_oliwer'" ><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-delay="500" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/excel.png" width="200px" alt="excel.png">
-                            <h2 class="margin-bottom-1"> AP GSB VISTAT </h2>
-                            <p>
-                                L’objectif de cet AP était d’apprendre à exporter les résultats obtenus
-                                avec MySQL vers EXCEL ainsi que de réaliser des requêtes SQL avec EXCEL.
-                                On a pu ensuite apprendre a gérer nos données dans des tableaux.
-                            </p>
-                            <button onclick="location.href='download/ap_gsb_vistat_g2_e1_skweres.docx'" ><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="columns flex-nospace">
-                    <div data-aos="zoom-in" data-aos-delay="600" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/csharp.png" alt="csharp.png">
-                            <h2 class="margin-bottom-1"> Application CentreCall </h2>
-                            <p>
-                                L’objectif de cet AP était de réaliser la gestion des tickets de CentreCall. Nous étions 2 sur ce projet et il devait être réalisé en groupe de 3 en 2 semaines.
-                                L’application devait être réalisée en C# avec un dossier documentaire.
-                            </p>
-                            <button onclick="location.href='https://github.com/SwerkF/bts_tickets_oliwer'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-delay="700" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/php.png" alt="php.png">
-                            <h2 class="margin-bottom-1"> AP Repas </h2>
-                            <p>
-                                On nous avait fourni une application PHP permettant la gestion de la cantine des BTS. Nous devions apporter des correctifs et des fonctionnalités en plus afin de faire évoluer cette application. 
-                                Ce travail devait être réalisé en 3 séances en groupe de 4.
-                            </p>
-                            <button onclick="location.href='https://github.com/SwerkF/bts_elior_oliwer'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-delay="800" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/logo.png" alt="logo.png">
-                            <h2 class="margin-bottom-1"> Symfony </h2>
-                            <p>
-                               Pour la reprise du BTS en 2nd année, avec la classe on a pu s'attaquer au framework Symfony. C'est un framework basé sur la méthode MVC PHP. Nous avons aussi pu apprendre à utiliser Github.
-                               Nous avons pu réaliser en groupe de 3, le site de 3Cables.
-                            </p>
-                            <button onclick="location.href='https://github.com/SwerkF/comeleon'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="columns flex-nospace">
-                    <div data-aos="zoom-in" data-aos-delay="900" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/csharp.png" alt="csharp.png">
-                            <h2 class="margin-bottom-1"> GSB GESAMM </h2>
-                            <p>
-                               Dans le cadre de cette AP, mon coéquipier et moi avons dû réaliser un projet C# qui permet de gérer une base de données de médicaments de l'entreprise GSB.<br>
-                               Ce travail a été réalisé en groupe de 2 pour notre cas.
-                            </p>
-                            <button onclick="location.href='https://github.com/thomasl28500/AP2-GSB'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-delay="1000" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/seo.png" alt="seo.png">
-                            <h2 class="margin-bottom-1"> Référencement </h2>
-                            <p>
-                               C'était une AP individuelle, dans laquelle on devait améliorer le référencement de notre Portfolio. On devait chercher par nous même comment faire afin d'améliorer la visibilité de notre site.
-                               Le document peut être téléchargé avec le boutton en haut à gauche.
-                            </p>
-                            <button onclick="location.href='download/ap_referencement.docx'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="mainTitle align-text-center margin-top-5 text-size-2">
-                    <h2 data-aos="fade-up" data-aos-delay="200"> Projets Personnels </h2>
-                </div>
-                <div class="columns flex-nospace">
-                    <div data-aos="zoom-in" data-aos-delay="600" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/discordjs.png" alt="discordjs.png">
-                            <h2 class="margin-bottom-1"> Bot Discord </h2>
-                            <p>
-                                Le bot Discord Keqing est un projet personnel que j'ai pu réaliser. Ce bot devait me permettre d'apprendre le JavaScript ainsi que le NodeJS.
-                                J'ai ensuite pris le projet plus au sérieux, afin d'en faire un vrai Bot qui pourrait aider les personnes sur Discord.
-                            </p>
-                            <button onclick="location.href='https://github.com/SwerkF/AkamiDiscordBot'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-delay="700" class="column background-red padding-3 margin-1 box-shadow-10">
-                        <div class="field">
-                            <img class="margin-bottom-1" src="imgs/dantech.png" alt="dantech.png">
-                            <h2 class="margin-bottom-1"> Dantech </h2>
-                            <p>
-                                Un des projets personnels que j'ai pu réaliser pendant les grandes vacances après mon stage est un site web pour l'entreprise Dantech. J'ai notamment utilisé le framework Bulma
-                                qui m'as permis de faire un quelque chose de bien à mes yeux.
-                            </p>
-                            <button onclick="location.href='https://www.dantech.fr/'"><i class="fa-solid fa-circle-down"></i></button>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E9E2" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,266.7C384,256,480,192,576,160C672,128,768,128,864,154.7C960,181,1056,235,1152,256C1248,277,1344,267,1392,261.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-            <div class="fourth">
-                <div id="stages"></div>
-                <div class="mainTitle align-text-center text-size-2 margin-top-5">
-                    <h2 data-aos="fade-up" data-aos-delay="200"> Stages </h2>
-                </div>
-                <div data-aos="zoom-in-up" data-aos-delay="300" class="rows" style="margin-bottom: 2em;">
-                    <div class="row box-shadow-10">
-                    <h2 data-aos="zoom-in-up" data-aos-delay="400" class="align-text-center margin-1"> Altameos </h2>
-                        <h2 data-aos="zoom-in-up" data-aos-delay="500" class="align-text-center margin-1"> STAGE EFFECTUÉ DU 30/05/2022 AU 1/07/2022 </h2>
-                        <div class="field-row">
-                            <div data-aos="zoom-in-up" data-aos-delay="600" class="field-row-image">
-                                <img src="imgs/altameos.png" alt="altameos.png">
-                            </div>
-                            <div class="field-row-text" data-aos="zoom-in-up" data-aos-delay="600">
-                                <p>
-                                    <strong>Altameos Multimédia</strong> est une agence WEB fondée en 2003 dont le but est de réunir graphistes, programmeurs et pros des web pour répondre au besoin d’entreprises sur Internet en général. Elle se situe à <strong>Evreux</strong>, au 9b Rue du Puits Carré.<br>
-                                    J’ai contacté Altameos, afin d’effectuer un stage chez eux. Ils m’ont présenté le projet: <strong>une sorte de Monopoly pour aider les gens atteints d’Alzheimer</strong>, à retrouver la mémoire grâce à des questions.
-                                </p>
-                                <div class="download-2">
-                                    <a href="download/stage_altameos_skweres.pdf" download ><i class="fa-solid fa-circle-down"></i> Rapport de stage</a>
-                                </div>
-                            </div>                           
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-up" data-aos-delay="300" class="rows" style="margin-bottom: 2em;">
-                    <div class="row box-shadow-10">
-                    <h2 data-aos="zoom-in-up" data-aos-delay="400" class="align-text-center margin-1"> Altameos </h2>
-                        <h2 data-aos="zoom-in-up" data-aos-delay="500" class="align-text-center margin-1"> STAGE EFFECTUÉ DU 09/01/2023 AU 17/02/2023 </h2>
-                        <div class="field-row">
-                            <div class="field-row-text" data-aos="zoom-in-up" data-aos-delay="600">
-                                <p>
-                                    <strong>Altameos Multimédia</strong> est une agence WEB fondée en 2003 dont le but est de réunir graphistes, programmeurs et pros des web pour répondre au besoin d’entreprises sur Internet en général. Elle se situe à <strong>Evreux</strong>, au 9b Rue du Puits Carré.<br>
-                                    Pour ce stage, j'ai recontacté Altameos, chez qui j'avais déjà pu réaliser mon stage l'année dernière pour savoir si ce serait possible de retenter l'expérience. Pour ce stage, j'ai pu créer une <strong>Marketplace</strong> sous Angular pour l'entreprise <strong>Oslab</strong>, accompagné d'une équipe de 6 développeurs.
-                                </p>
-                                <div class="download-2">
-                                    <a href="download/stage_altameos_skweres_2.pdf" download ><i class="fa-solid fa-circle-down"></i> Rapport de stage</a>
-                                </div>
-                            </div>  
-                            <div data-aos="zoom-in-up" data-aos-delay="600" class="field-row-image">
-                                <img src="imgs/altameos.png" alt="altameos.png">
-                            </div>                         
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E9E2" fill-opacity="1" d="M0,224L48,240C96,256,192,288,288,261.3C384,235,480,149,576,122.7C672,96,768,128,864,149.3C960,171,1056,181,1152,160C1248,139,1344,85,1392,58.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-            <div id="certificates"></div><div class="fifth">
-                
-                <div class="mainTitle align-text-center text-size-2 margin-top-5">
-                <h2 data-aos="fade-up" data-aos-delay="200"> Certifications </h2>
-                </div>
-                <div class="columns flex-nospace">
-                    <div class="column-container">
-                        <div data-aos="fade-right" data-aos-delay="500" class="column background-red padding-3 margin-1 box-shadow-10">
-                            <div class="field square">
-                                <img src="imgs/cisco1.png" alt="cisco.png">
-                                <h2 class="margin-top-3">Certification:</h2><h3>Intro to Cybersecurity</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-container">
-                        <div data-aos="fade-right" data-aos-delay="400" class="column background-red padding-3 margin-1 box-shadow-10">
-                            <div class="field square">
-                                <img src="imgs/cisco2.png" alt="cisco2.png">
-                                <h2 class="margin-top-3">Certification:</h2><h3>IT Essentials</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-container">
-                        <div data-aos="fade-right" data-aos-delay="300" class="column background-red padding-3 margin-1 box-shadow-10">
-                            <div class="field square">
-                                <img src="imgs/voltaire.png" alt="voltaire.png">
-                                <h2 class="margin-top-3">Certification:</h2><h3>Voltaire</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="columns flex-nospace">
-                    <div class="column-container">
-                        <div data-aos="fade-right" data-aos-delay="300" class="column background-red padding-3 margin-1 box-shadow-10">
-                            <div class="field square">
-                                <img src="imgs/secnum.png" alt="secnum.png">
-                                <h2 class="margin-top-3">Certification:</h2><h3>Secnum Academy</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-container">
-                        <div data-aos="fade-right" data-aos-delay="300" class="column background-red padding-3 margin-1 box-shadow-10">
-                            <div class="field square">
-                                <img src="imgs/rgpd.webp" alt="rgpd.png">
-                                <h2 class="margin-top-3">Certification:</h2><h3>Atelier RGPD</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-container">
-                        <div data-aos="fade-right" data-aos-delay="300" class="column background-red padding-3 margin-1 box-shadow-10">
-                            <div class="field square">
-                                <img src="imgs/freecodecamp.jpeg" alt="freecodecamp.jpg">
-                                <h2 class="margin-top-3">Certification:</h2><h3>Resp. Web Design</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E9E2" fill-opacity="1" d="M0,160L48,186.7C96,213,192,267,288,245.3C384,224,480,128,576,117.3C672,107,768,181,864,224C960,267,1056,277,1152,240C1248,203,1344,117,1392,74.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-            <div class="sixth">
-                <div id="veilles"></div>
-                <div class="mainTitle align-text-center text-size-2 margin-top-5">
-                    <h2 data-aos="fade-up" data-aos-delay="200"> Veilles Technologique </h2>
-                </div>
-                <div  data-aos="zoom-in-up" data-aos-delay="300" class="rows">
-                    <div class="row box-shadow-10">
-                        <div class="field-row">
-                            <div data-aos="zoom-in-up" data-aos-delay="600" class="field-row-image">
-                                <img src="imgs/nvidia.png" alt="nvidia.png">
-                            </div>
-                            <div class="field-row-text" data-aos="zoom-in-up" data-aos-delay="600">
-                                <h2 data-aos="zoom-in-up" data-aos-delay="400" class="align-text-center margin-1"> Theme: L'IA chez Nvidia </h2>
-                                <p>
-                                    J’ai choisi le thème de <strong>l’intelligence artificielle</strong> car c’est en relation avec nos cours en <strong>C#</strong> et <strong>Mathématique</strong> où nous faisons de l’algorithmie. J’ai choisi l’entreprise <strong>NVIDIA</strong> en particulier car les intelligences artificielles qu’ils proposent sont surprenantes et que <strong>je peux tester</strong> moi-même ces fonctionnalités grâce à ma carte graphique <strong>NVIDIA RTX 2070</strong>.<br>
-                                    <strong>Exemple</strong>: GauGAN qui permet de transformer un dessin en photo réaliste.
-                                </p>             
-                            </div>
-                        </div>
-                    </div>
-                <div class="columns">
-                    <div class="column background-cream padding-3 margin-1 box-shadow-10">
-                        <img data-aos="zoom-in-up" data-aos-delay="400" src="imgs/dldsr.png" alt="dldsr.png" class="column-image">
-                        <div data-aos="zoom-in-up" data-aos-delay="600" class="download-3 align-text-center">
-                            <a href="download/nvidia_dldsr.docx" download><i class="fa-solid fa-circle-down"></i> Telecharger la veille</a>
-                        </div>
-                        
-                    </div>
-                    <div class="column background-cream padding-3 margin-1 box-shadow-10">
-                        <img data-aos="zoom-in-up" data-aos-delay="400" src="imgs/3d.png" alt="3d.png" class="column-image">
-                        <div data-aos="zoom-in-up" data-aos-delay="600" class="download-3 align-text-center">
-                            <a href="download/nvidia_images_3d_et_visages.docx" download><i class="fa-solid fa-circle-down"></i> Telecharger la veille</a>
-                        </div>
-                    </div>
-                    <div class="column background-cream padding-3 margin-1 box-shadow-10">
-                        <img data-aos="zoom-in-up" data-aos-delay="400" src="imgs/gaugan.png" alt="gaugan.png" class="column-image">
-                        <div data-aos="zoom-in-up" data-aos-delay="600" class="download-3 align-text-center">
-                            <a href="download/nvidia_gaugan.docx" download><i class="fa-solid fa-circle-down"></i> Telecharger la veille</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column background-cream padding-3 margin-1 box-shadow-10">
-                        <img data-aos="zoom-in-up" data-aos-delay="400" src="imgs/NeRF.png" alt="NeRF.png" class="column-image">
-                        <div data-aos="zoom-in-up" data-aos-delay="600" class="download-3 align-text-center">
-                            <a href="download/nvidia_nerf.docx" download><i class="fa-solid fa-circle-down"></i> Telecharger la veille</a>
-                        </div>
-                    </div>
-                    <div class="column background-cream padding-3 margin-1 box-shadow-10">
-                        <img data-aos="zoom-in-up" data-aos-delay="400" src="imgs/magic3d.png" alt="magic3d.png" class="column-image">
-                        <div data-aos="zoom-in-up" data-aos-delay="600" class="download-3 align-text-center">
-                            <a href="download/nvidia_magic3D.docx" download><i class="fa-solid fa-circle-down"></i> Telecharger la veille</a>
-                        </div>
-                    </div>
-                </div>
-                
-               
-            </div>
+<html>
+  <head>
+    <title>Oliwer Skweres</title>
+    <link rel="icon" href="src/imgs/favicon.png">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Syne:wght@400;500;600;700;800&family=Viaoda+Libre&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/b20eb41686.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio de Oliwer SKWERES - Swerk"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#F5E9E2">
+    <meta name="author" content="Oliwer Skweres">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Oliwer Skweres"/>
+    <meta property="og:description" content="Portfolio de Oliwer SKWERES - Swerk"/>
+    <meta property="og:image" content="https://skweres.xyz/imgs/image.png"/>
+    <meta property="og:url" content="https://skweres.xyz"/>
+    <meta property="og:site_name" content="Portfolio"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:title" content="Oliwer Skweres"/>
+    <meta property="twitter:description" content="Portfolio de Oliwer SKWERES - Swerk"/>
+    <meta property="twitter:image" content="https://skweres.xyz/imgs/image.png"/>
+    <meta property="twitter:url" content="https://skweres.xyz"/>
+    <meta property="twitter:domain" content="skweres.xyz"/>
+    <meta name="keywords" content="Oliwer, Skweres, Swerk, Portfolio, Oliwer Portfolio, Oliwer Skweres Portfolio, Swerk Portfolio, Oliwer Dev, Skweres Dev, Swerk Dev"> 
+  </head>
+  <body>
+    <div class="navbar-c">
+      <div class="d-flex">
+        <p class="align-items-center f-syne-black color-white w-100 logo"><span class="hover-text-animate-b">O</span><span class="hover-text-animate-p">S</span></p>
+        <p class="align-items-center f-syne-black color-white w-100 logo-min"><span class="hover-text-animate-b" data-aos-delay="1500">Oliwer </span><span class="hover-text-animate-p">Skweres</span></p>
+        <div class="d-flex">
+          <p class="align-items-center nav-item f-syne-black color-white" data-aos="fade-down" data-aos-delay="1000">•&nbsp;ACCUEIL</p>
+          <p class="align-items-center nav-item f-syne-black color-white" data-aos="fade-down" data-aos-delay="1100">•&nbsp;ABOUT</p>
+          <p class="align-items-center nav-item f-syne-black color-white" data-aos="fade-down" data-aos-delay="1200">•&nbsp;PROJETS</p>
+          <p class="align-items-center nav-item f-syne-black color-white" data-aos="fade-down" data-aos-delay="1300">•&nbsp;VEILLES</p>
+          <p class="align-items-center nav-item-last f-syne-black color-white" data-aos="fade-down" data-aos-delay="1400">•&nbsp;CERTIF</p>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E9E2" fill-opacity="1" d="M0,64L40,101.3C80,139,160,213,240,218.7C320,224,400,160,480,122.7C560,85,640,75,720,106.7C800,139,880,213,960,208C1040,203,1120,117,1200,80C1280,43,1360,53,1400,58.7L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
-        <div class="seventh">
-        <div id="contact"></div>
-            <div class="mainTitle align-text-center text-size-2 margin-top-5">
-                <h2 data-aos="fade-up" data-aos-delay="200"> Contact </h2>
-            </div>
-            <div  data-aos="zoom-in-up" data-aos-delay="300" class="rows">
-                <div class="row box-shadow-10 background-red">
-                    <div class="field-row background-red">
-                        <div data-aos="zoom-in-up" data-aos-delay="600" class="field-row-image">
-                            <img src="imgs/wave.png" alt="wave.png">
-                        </div>
-                        <div class="field-row-text" data-aos="zoom-in-up" data-aos-delay="600">
-                            <h2 data-aos="zoom-in-up" data-aos-delay="400" class="align-text-center text-size-2 margin-1"> Pour me contacter: </h2>   
-                            <div class="contact">
-                                <p>
-                                    <i class="fa-solid fa-envelope"></i> Mail : swerk.pro@gmail.com
-                                </p>     
-                                <p>
-                                    <i class="fa-solid fa-phone"></i> Téléphone : 06.40.81.00.44
-                                </p>
-                                <p>
-                                    <i class="fa-brands fa-discord"></i> Discord : Swerk#0911
-                                </p> 
-                                <p>
-                                    <i class="fa-brands fa-github"></i> Github : SwerkF
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <script>
-        AOS.init();
-    </script>
-    </body>
+    <div class="container-fb">
+      <div class="square">
+        <div class="inner-square">
+          <div class="inner d-flex flex-column justify-content-between" style="height: 100%">
+            <h1 class="text-os color-white f-krona">O<span class="color-br">S</span></h1>
+            <h2 class="text-os2 color-white f-krona">OLIWER <span class="color-br">S</span>KWERES</h2>
+          </div>
+        </div>
+      </div>
+      <div class="first form-col1"><p class="f-krona text-up" style="color:aliceblue;" data-aos="fade-right">FUTUR</p></div>
+      <div class="Second form-col2"><p class="f-viaoda-black text-up" data-aos="fade-down" data-aos-delay="300">DEV</p></div>
+      <div class="Third form-col3"><p class="f-syne-black text-down" style="color:rgb(0, 0, 0);" data-aos="fade-up" data-aos-delay="600">FULL</p></div>
+      <div class="Fourth form-col4"><p class="f-syne-black text-down" style="color:aliceblue;" data-aos="fade-left" data-aos-delay="900">STACK</p></div>
+    </div>
+    <div class="container-fb2">
+      <div class="Third form-col3"><p class="f-syne-black" style="color:rgb(0, 0, 0); font-size: 5.8vw;"></p></div>
+      <div class="Fourth form-col4"><p class="f-syne-black" style="color:aliceblue; font-size: 5.8vw;"></p></div>
+    </div>
+    <svg style="transform: translateY(-99%); position:absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#048B9A" fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,197.3C384,213,480,235,576,218.7C672,203,768,149,864,154.7C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    <div class="section-presentation">
+      <div class="container text-center">
+        <div class="row">
+          <h2 class="f-syne-black title-presentation" style="margin-top: 12%; z-index: 2" data-aos="fade-up">about me</h2>
+          <div class="text-presentation" data-aos="fade-up" data-aos-delay="300" style="z-index: 2;">
+            <p class="f-syne ">Je m'appelle Oliwer, j'ai 20 ans et j'habite à Evreux. Je suis une personne passionnée par l'informatique mais surtout par le web design. Je voudrais faire de cette activité un métier plus tard.</p>
+            <p class="f-syne">Si je devais citer quelques-unes de mes passions ce serait sûrement les jeux vidéos, la musique, les sorties entre amis et design. L'année prochaine, j'espère pouvoir poursuivre mes études à L'IPSSI.</p>
+            <p class="f-syne">Je travaille constament sur un projet personnel chez moi afin d'apprendre toujours plus.Acutellement, j'essaie d'apprendre d'autres langages web afin de me spécialiser dans l'un d'entre eux, comme React.</p>
+          </div>
+          <div class="col text-center">
+            <button class="btn button" data-aos="fade-up" data-aos-delay="600" onclick="location.href='src/download/skweres_cv.pdf'">Trop long? Cliquez ici pour télécharger mon CV.</button>
+          </div>
+        </div>
+        <img src="src/imgs/circle3.png" alt="circle3" data-aos="fade-up" style="width: 10vw;  transform:translate(-21em, -34.5em); position: absolute; z-index: 1">
+        <img src="src/imgs/circle3.png" alt="circle3" data-aos="fade-left" style="width: 25vw;  transform:translate(97%, -21em); position: absolute; z-index: 1">
+        <img src="src/imgs/circle3.png" alt="circle3" data-aos="fade-right" style="width: 4vw;  transform:translate(-990%, -3em); position: absolute; z-index: 1">
+      </div>
+    </div>
+    <svg style="background-color:#edecec" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#048B9A" fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,197.3C384,213,480,235,576,208C672,181,768,107,864,112C960,117,1056,203,1152,234.7C1248,267,1344,245,1392,234.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <div class="section-projets">
+      <div class="container text-center">
+        <div class="row">
+          <h2 class="f-syne-black title-projets" data-aos="fade-up" style="margin-top: 12%; padding-bottom: 2%; z-index: 2">projets</h2>
+          <div class="row row-no-mr no-padding-row-left-right">
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">C#</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Projet GSB</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  L’objectif de ce projet était de réaliser un algorithme qui permet de rajouter des stocks de médicaments, les consulter et donner leur prix. Cet algorithme a été fait pour l’entreprise nommée GSB.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/bts_medicament_oliwer'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">C#</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Application Digicode</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  L’objectif de cette AP était de réaliser un digicode en groupe de 3 en Windows Form en C#. Chaque élève avait son activité à faire, tout ça géré par un chef de projet nommé en début d’AP. Tout ça en moins de 12 heures.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white"  onclick="location.href='https://github.com/SwerkF/bts_digicode_oliwer'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">EXC</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Projet GSB</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  L’objectif de cet AP était d’apprendre à exporter les résultats obtenus avec MySQL vers EXCEL ainsi que de réaliser des requêtes SQL avec EXCEL. On a pu ensuite apprendre à gérer nos données dans des tableaux.
+              </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='download/ap_gsb_vistat_g2_e1_skweres.docx'">Télécharger le projet</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="row no-padding-row-left-right" style="margin-top: 2em;">
+            
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">C#</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Projet CentreCall</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  L’objectif de cet AP était de réaliser la gestion des tickets de CentreCall. Nous étions 2 sur ce projet et il devait être réalisé en groupe de 3 en 2 semaines. L’application devait être réalisée en C# avec un dossier documentaire.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/bts_tickets_oliwer'">Télécharger le projet</button>
+              </div>
+            </div>
+            
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">PHP</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">AP Repas</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  On nous avait fourni une application PHP permettant la gestion de la cantine des BTS. Nous devions apporter des correctifs et des fonctionnalités en plus afin de faire évoluer cette application. Ce travail devait être réalisé en 3 séances en groupe de 4.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/bts_elior_oliwer'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">SYM</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Projet Comeleon</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  Pour la reprise du BTS en 2nd année, avec la classe on a pu s'attaquer au framework Symfony. C'est un framework basé sur la méthode MVC PHP. Nous avons aussi pu apprendre à utiliser Github. Nous avons pu réaliser en groupe de 3, le site de 3Cables.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/comeleon'">Télécharger le projet</button>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="row no-padding-row-left-right" style="margin-top: 2em;">
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">C#</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">GSB GESAMM</h4>
+              <div class="description-container f-krona">
+                  <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                    Dans le cadre de cette AP, mon coéquipier et moi avons dû réaliser un projet C# qui permet de gérer une base de données de médicaments de l'entreprise GSB. L'application était à faire en 5 semaines en cours, et chez nous. 
+                  </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/thomasl28500/AP2-GSB'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">SEO</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">AP Référencement</h4>
+              <div class="description-container f-krona">
+                  <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                    C'était une AP individuelle, dans laquelle on devait améliorer le référencement de notre Portfolio. On devait chercher par nous même comment faire afin d'améliorer la visibilité de notre site..
+                  </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='download/ap_referencement.docx'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">TSX</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">React Zoo Cerza</h4>
+              <div class="description-container f-krona">
+                  <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                    Ce projet était notre premier projet avec le framework React. Nous avons construit une application web qui permet la gestion d'un zoo. L'AP était en groupe de 4 et à faire en seulement 4 semaines.
+                  </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/cerza'">Télécharger le projet</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <h2 class="f-syne-black title-projets" data-aos="fade-up" style="margin-top: 5%; padding-bottom: 2%; z-index: 2">perso.</h2>
+          </div>
+          <div class="row no-padding-row-left-right" style="margin-top: 2em;">
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">DJS</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Bot Discord</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  Le bot Discord Keqing est un projet personnel que j'ai pu réaliser. Ce bot devait me permettre d'apprendre le JavaScript ainsi que le NodeJS. J'ai ensuite pris le projet plus au sérieux, afin d'en faire un vrai Bot qui pourrait aider les personnes sur Discord.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/AkamiDiscordBot'">Télécharger le projet</button>
+              </div>
+            </div>
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">PHP</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Dantech</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  Un des projets personnels que j'ai pu réaliser pendant les grandes vacances après mon stage est un site web pour l'entreprise Dantech. J'ai notamment utilisé le framework Bulma qui m'a permis de faire un quelque chose de bien à mes yeux.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://www.dantech.fr/'" disabled>Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">CSS</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Cheat Sheet Swerk</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  Le Cheat Sheet est un site en ligne que j'ai réalisé pour les personnes de ma classe et qui regroupe quelques bouts de code que je trouve utiles. Le projet est toujours en cours et ce serait sur le long terme. Pour le moment, je travaille seul dessus.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://www.sheet.skweres.xyz'">Télécharger le projet</button>
+              </div>
+            </div>
+          </div>
+          <div class="row no-padding-row-left-right" style="margin-top: 2em;">
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">JS</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">API Nvidia</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  Le projet API Nvidia est un projet personnel que j'ai pu réaliser. Ce projet est une API qui permet de récupérer les informations des cartes graphiques Nvidia. J'ai utilisé le framework ExpressJS pour la partie back-end.                 
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://github.com/SwerkF/NVIDIAGPU-DISCORDJS'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">TSX</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Swerk GPT</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  Le projet Swerk GPT est un projet personnel que j'ai pu réaliser. Ce projet est un générateur de texte à partir d'un modèle GPT-3. J'ai utilisé le framework React pour la partie front-end et NodeJS pour la partie back-end, ainsi que l'API de OpenAI.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='https://swerk.fr'">Télécharger le projet</button>
+              </div>
+            </div>
+
+            <div class="col square-p" data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-p">...</h3>
+              <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">A venir</h4>
+              <div class="description-container f-krona">
+                <p style="margin-top: 0.5em; color:#edecec; font-size: 0.85em;">
+                  En cours de réalisation.
+                </p>
+              </div>
+              <div class="col text-center button-container">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href=''" disabled>A venir</button>
+              </div>
+            </div>
+
+
+          </div>
+      </div>
+    </div>
+    </div>
+    <svg style="transform: translateY(1%)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      &nbsp;&nbsp;<path fill="#7A9E7E" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,224C384,256,480,256,576,245.3C672,235,768,213,864,176C960,139,1056,85,1152,85.3C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    <div class="section-stages" style="padding-top: 12%">
+      <div class="container text-center">
+        <h2 class="f-syne-black title-presentation">Stages</h2> 
+        <div class="col">
+          <div class="col square-s-big" data-aos="fade-right">
+            <h3 class="f-syne-black title-s" >ALTAMEOS</h3>
+            <p class="f-syne">Stage effectué du 29/04/2022 au 01/07/2022</p>
+            <br>
+            <p class="f-syne" style="margin-left: 10%; margin-right: 10%; line-height: 1.3em !important">
+              Altameos Multimédia est une agence WEB fondée en  
+              2003 dont le but est de réunir graphistes, programmeurs et 
+              pros des web pour répondre au besoin des entreprises sur Internet 
+              en général. Elle se situe à Evreux, au 9b Rue du Puits Carré.<br><br>
+              J’ai contacté Altameos, afin d’effectuer un stage chez eux. 
+              Ils m’ont présenté le projet: une sorte de Monopoly pour aider 
+                les gens atteints d’Alzheimer, à retrouver la mémoire grâce à 
+              des questions
+            </p>
+            <button class="btn button-3" onclick="location.href='src/download/stage_altameos_skweres.pdf'">
+              Télécharger le document
+            </button>
+          </div>
+          <div class="col square-s-big" data-aos="fade-left">
+            <h3 class="f-syne-black title-s" >ALTAMEOS</h3>
+            <p class="f-syne">Stage effectué du 29/04/2022 au 01/07/2022</p>
+            <br>
+            <p class="f-syne" style="margin-left: 10%; margin-right: 10%; line-height: 1.3em !important">
+              Altameos Multimédia est une agence WEB fondée en  
+              2003 dont le but est de réunir graphistes, programmeurs et 
+              pros des web pour répondre au besoin des entreprise sur Internet 
+              en général. Elle se situe à Evreux, au 9b Rue du Puits Carré.<br><br>
+              Pour ma 2ème année de stage, j'ai dû effectuer une marketplace en avec Angular.
+              Avec un groupe de 6 développeurs, j'ai pu être chef de projet et mener à bien 
+              un vrai projet professionnel.
+            </p>
+            <button class="btn button-3" onclick="location.href='src/download/stage_altameos_skweres_2.pdf'">
+              Télécharger le document
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg style="background-color:#0b0b0b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#7A9E7E" fill-opacity="1" d="M0,192L48,186.7C96,181,192,171,288,192C384,213,480,267,576,250.7C672,235,768,149,864,133.3C960,117,1056,171,1152,165.3C1248,160,1344,96,1392,64L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <div class="section-certifs">
+      <div class="container text-center">
+        <div class="row custom-row">
+          <h2 class="f-syne-black title-presentation" style="margin-top: 12%; padding-bottom: 2%; z-index: 2">certif.</h2>
+          <div class="row">
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="300">
+              <h2 class="f-syne-black color-white title-s" >CCNA</h2>
+              <p class="color-white">Introduction to cybersecurity</p>
+              <div class="square-c-content">
+                <img src="src/imgs/cisco1.png" alt="cisco1" class="img-certif">
+              </div>
+            </div>
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="400">
+              <h2 class="f-syne-black color-white title-s">CCNA</h2>
+              <p class="color-white">IT Essentials</p>
+              <div class="square-c-content">
+                <img src="src/imgs/cisco2.png" alt="cisco2" class="img-certif">
+              </div>
+            </div>
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="500">
+              <h2 class="f-syne-black color-white title-s">Voltaire</h2>
+              <p class="color-white">Certification voltaire</p>
+              <div class="square-c-content">
+                <img src="src/imgs/voltaire.png" alt="voltaire" class="img-certif">
+              </div>
+            </div>
+          </div>
+          <div class="row row-no-mr no-padding-row-left-right">
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="300">
+              <h2 class="f-syne-black color-white title-s">Secnum</h2>
+              <p class="color-white">Certification Secnum</p>
+              <div class="square-c-content">
+                <img src="src/imgs/secnum.png" alt="secnum" class="img-certif">
+              </div>
+            </div>
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="400">
+              <h2 class="f-syne-black color-white title-s">RGPD</h2>
+              <p class="color-white">Certification RGPD</p>
+              <div class="square-c-content">
+                <img src="src/imgs/rgpd.webp" alt="rgpd" class="img-certif">
+              </div>
+            </div>
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="500">
+              <h2 class="f-syne-black color-white title-s">PIX</h2>
+              <p class="color-white">Certification PIX</p>
+              <div class="square-c-content">
+                <img src="src/imgs/pix.png" alt="pix" class="img-certif">
+              </div>
+            </div>
+          </div>
+          <div class="row row-no-mr no-padding-row-left-right">
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="300">
+              <h2 class="f-syne-black color-white title-s">FCC</h2>
+              <p class="color-white">Resp. Web Design</p>
+              <div class="square-c-content">
+                <img src="src/imgs/freecodecamp.jpeg" alt="freecodecamp" class="img-certif">
+              </div>
+            </div>
+            <div class="col square-c" data-aos="zoom-in-up" data-aos-delay="400">
+              <h2 class="f-syne-black color-white title-s">FCC</h2>
+              <p class="color-white">JavaScript Algorithms and Data Structures</p>
+              <div class="square-c-content">
+                <img src="src/imgs/freecodecamp.jpeg" alt="freecodecamp" class="img-certif">
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-veilles">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0b0b0b" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,117.3C672,96,768,64,864,90.7C960,117,1056,203,1152,234.7C1248,267,1344,245,1392,234.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+      </svg>
+      <div class="container text-center">
+        <div class="row">
+          <h2 class="f-syne-black title-veilles" style="margin-top: 12%; padding-bottom: 2%; z-index: 2">veilles</h2>
+          <div class="col">
+            <div class="col square-s-big"  data-aos="zoom-in-up" data-aos-delay="300">
+              <h3 class="f-syne-black title-s">L'IA chez Nvidia</h3>
+              <br>
+              <p class="f-syne" style="margin-left: 10%; margin-right: 10%; line-height: 1.3em !important">
+                J'ai choisi le thème de l'intelligence artificielle car c'est en relation avec nos cours en C# et Mathématiques
+                car nous y ferons des algorithmes. Je me suis basé sur NVIDIA.
+                <br>
+                <br>
+                NVIDIA est une entreprise américaine spécialisée dans la fabrication de cartes graphiques pour PC ou de processeurs graphiques pour les consoles de jeux vidéos.
+                Elle est également connue pour ses recherches en intelligence artificielle et les intelligences artificielles proposées par celle-ci
+                sont surprenante. Pour exemple, on peut prendre Gaugan qui permet de transformer un simple dessin en photo réaliste.
+                <br>
+                <br>
+                Vous retrouvez juste en dessous les différentes veilles que j'ai pu réaliser à porpos d'NVIDIA.
+              </p>
+            </div>
+            <div class="row row-no-mr no-padding-row-left-right">
+              <div class="col square-v" data-aos="zoom-in-up" data-aos-delay="300">
+                <h3 class="f-syne-black title-p">DLDSR</h3>
+                <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Le DLDSR: le futur des vidéos/jeux</h4>
+                <div class="col text-center">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='src/download/nvidia_dldsr.docx'">Télécharger la veille</button>
+                </div>
+              </div>
+              <div class="col square-v" data-aos="zoom-in-up" data-aos-delay="400">
+                <h3 class="f-syne-black title-p">IMAGES</h3>
+                <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">De la 2D vers la 3D</h4>
+                
+                <div class="col text-center">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='src/download/nvidia_images_3d_et_visages.docx'">Télécharger la veille</button>
+                </div>
+              </div>
+              <div class="col square-v" data-aos="zoom-in-up" data-aos-delay="500">
+                <h3 class="f-syne-black title-p">Gaugan</h3>
+                <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Devenez un artiste dès maintenant</h4>
+                
+                <div class="col text-center">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='src/download/nvidia_gaugan.docx'">Télécharger la veille</button>
+                </div>
+              </div>
+              <div class="col square-v" data-aos="zoom-in-up" data-aos-delay="600">
+                <h3 class="f-syne-black title-p">NeRF</h3>
+                <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">De la photo vers la 3D</h4>
+                
+                <div class="col text-center">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='src/download/nvidia_nerf.docx'">Télécharger la veille</button>
+                </div>
+              </div>
+              <div class="col square-v" data-aos="zoom-in-up" data-aos-delay="700">
+                <h3 class="f-syne-black title-p">Magic3D</h3>
+                <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Créez ce que vous souhaitez</h4>
+                
+                <div class="col text-center">
+                  <button class="btn button-2 btn2-border-color-white" onclick="location.href='src/download/nvidia_magic3D.docx'">Télécharger la veille</button>
+                </div>
+              </div>
+              <div class="col square-v" data-aos="zoom-in-up" data-aos-delay="800">
+                <h3 class="f-syne-black title-p">A venir</h3>
+                <h4 class="f-krona" style="text-decoration: underline 2px #fff; color: #edecec;">Une veille passionante</h4>
+                <div class="col text-center">
+                  <button class="btn button-2 btn2-border-color-white">Télécharger la veille</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#e5e5e5" fill-opacity="1" d="M0,224L80,213.3C160,203,320,181,480,197.3C640,213,800,267,960,282.7C1120,299,1280,277,1360,266.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      </svg>
+      <div class="footer" style="background-color: #e5e5e5; width: 100%; height: 18em; position: absolute;">
+        <div class="container">
+          <div class="d-flex flex-row mt-5 align-items-center text-center justify-content-around" style="color: #474747 !important;">
+            <div>
+              <h2 class="f-syne">Contact</h2>
+              <p class="f-syne"><i class="fa-solid fa-envelope"></i> <a style="color: #818181 !important;" href="mailto:oliwer721@gmail.com">oliwer721@gmail.com</a> <br/> <i class="fa-solid fa-phone"></i> <a style="color: #818181 !important;" href="tel:+336 40 81 00 44">06 40 81 00 44</a></p>
+            </div>
+            <div>
+              <h2 class="f-syne">Réseaux sociaux</h2>
+              <a style="color: #818181; font-size: 30px !important;" href="https://www.linkedin.com/in/oliwer-skweres/"><i class="fa-brands fa-linkedin"></i></a><br>
+              <a style="color: #818181; font-size: 30px !important;" href="https://github.com/SwerkF"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/index.js"></script>
+  </body>
 </html>

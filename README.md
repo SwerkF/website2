@@ -12,7 +12,7 @@ L'auteur du site est [Swerk](https://github.com/SwerkF), developpeur de 20 ans e
 
 ## Fonctionnalités
 
-Le site est disponible avec 2 URLS: [www.skweres.xyz](https://www.skweres.xyz) OU [www.swerk.dev](https://www.swerk.dev)
+Le site est disponible avec 2 URLS: [www.skweres.xyz](https://www.skweres.xyz) OU [www.skweres.xyz](https://www.skweres.xyz)
 
 ![picture](imgs/website.png)
 

@@ -1,16 +1,1 @@
-AOS.init();
-
-const name = ["O", "l", "i", "w", "e", "r", "-", "S", "k", "w", "e", "r", "e", "s"];
-let idx = 0;
-let title = "";
-
-function updateTitle() {
-  if (idx >= name.length) {
-    idx = 0;
-  }
-  title = name.slice(0, idx + 1).join("");
-  document.title = title;
-  idx++;
-  setTimeout(updateTitle, 500);
-}
-updateTitle();
+AOS.init();const colors=[{"--primary":"#048B9A","--secondary":"#7A9E7E"},{"--primary":"#F18F01","--secondary":"#006E90"},{"--primary":"#439A86","--secondary":"#6969B3"},{"--primary":"#187795","--secondary":"#2589BD"},{"--primary":"#97C100","--secondary":"#436436"},{"--primary":"#EE7B30","--secondary":"#846B8A"},{"--primary":"#679289","--secondary":"#1D7874"},{"--primary":"#246A73","--secondary":"#E3170A"},{"--primary":"#FF668C","--secondary":"#607196"},{"--primary":"#993399","--secondary":"#F5DEB3"},{"--primary":"#008080","--secondary":"#DAB568"},{"--primary":"#483D8B","--secondary":"#E5D121"},{"--primary":"#FF6347","--secondary":"#006400"},{"--primary":"#FFA07A","--secondary":"#4682B4"},{"--primary":"#DA70D6","--secondary":"#00D66B"},{"--primary":"#6495ED","--secondary":"#8B0000"},{"--primary":"#7B68EE","--secondary":"#F08080"},{"--primary":"#9370DB","--secondary":"#FFA500"}],changeColor=()=>{let r=colors[Math.floor(Math.random()*colors.length)];Object.keys(r).forEach(e=>{document.documentElement.style.setProperty(e,r[e])})};changeColor();const pressed=[],konamiCode=["ArrowUp","ArrowUp","ArrowDown","ArrowDown","ArrowLeft","ArrowRight","ArrowLeft","ArrowRight","b","a"];window.addEventListener("keyup",r=>{if(pressed.push(r.key),pressed.splice(-konamiCode.length-1,pressed.length-konamiCode.length),pressed.join("").includes(konamiCode.join(""))){KuruSound();let e=document.querySelector(".button-kuru");e.style.display="block",alert("Konami Code activated!")}else"R"===r.key&&pressed.splice(0,pressed.length)});const KuruPlay=()=>{let r=document.createElement("img");r.src="./src/imgs/kuru.gif",r.style.position="fixed",r.style.top="50%",r.style.left="110%",r.style.width="600px",r.style.transform="translate(-50%, -50%)",r.style.zIndex="9999",r.style.transition="all 2s ease-in",document.body.appendChild(r),setTimeout(()=>{r.style.left="-100%"},100),setTimeout(()=>{KuruSound()},50),setTimeout(()=>{r.remove()},2e3)},KuruSound=()=>{let r=.5>Math.random()?"kuru":"kuru2",e=new Audio(`./src/sounds/${r}.mp3`);e.play()},backTop=()=>{window.scrollTo(0,0)};
